@@ -1,21 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>My Resume Website!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="p-5 bg-primary text-white text-center">
+      <h1>My Resume Website</h1>
+    </div>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume Website</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-</head>
+    <nav
+      class="navbar navbar-expand-sm navbar-dark"
+      style="background-color: rgb(64, 166, 245)"
+    >
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="/index.html">Homepage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/page2.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/page3.html">Contract</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4 d-flex align-items-center vstack shadow">
+          <h2 class="mt-5">About Me</h2>
+          <div>
+            <img
+              class="img rounded-circle shadow"
+              alt="MyPic"
+              src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.6435-9/70266044_1276265789220130_4440807037999251456_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFwXw-3c6JCEosODf9PTKB9zqyztEn6e2nOrLO0Sfp7abKhl9prMVMNbgU9F2dyBMwunmiNtHw9rmRNwrwKO7QF&_nc_ohc=X90pRvbDVS0AX9qJB5E&tn=Vbr4HDI-SHMEGOwU&_nc_ht=scontent.fbkk10-1.fna&oh=00_AT9-VU_IsE7mTkSOo_f52MuWkHMgSXfyZ3PTp3imicBSTQ&oe=62E4D1F0"
+            />
+          </div>
+          <p class="text">
+            Hello! My name is Rapepol Nanan. Im studying Computer Engineering at
+            Chiangmai University. I love backend programming but I hate
+            frontend! Looking Forward to working with you.
+          </p>
+          <hr class="d-sm-none" />
+        </div>
+        <div class="col-sm-8 shadow">
+          <h2 class="mt-5">My Skills</h2>
+          <h5>Programming</h5>
+          <div>
+            <img
+              class="img"
+              src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.6435-9/46479525_10217396751251536_6701014460619816960_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeECcsziBZKsiTrrEj9uwd5UHdPpl6D6onUd0-mXoPqidcdViXNMmuJkskGyKFtQub5pQcYRRO55wLaEeaflJjm_&_nc_ohc=xqSVnebDEIsAX-ibPEw&_nc_ht=scontent.fbkk14-1.fna&oh=00_AT8V_ZacD-9OX2gTe_jl70FGdL5CBGY2pPyJe1b2-cOC5g&oe=62E49572"
+            />
+          </div>
+          <p class="text">
+            Programming in various computer languages such as Python, C, C#, C++
+            and JAVA.
+          </p>
+          <hr class="d-sm-none" />
 
+          <h5 class="mt-5">Game Developing</h5>
+          <div>
+            <img
+              class="img"
+              src="https://www.techoffside.com/wp-content/uploads/2022/01/Game-Developer-001.jpg"
+            />
+          </div>
+          <p class="text">
+            Having some experiences with game developing tools and editors. Suit
+            with both Unity Engine and Unreal Engine with C# and C++.
+          </p>
+          <hr class="d-sm-none" />
 
-</body>
+          <h5 class="mt-5">Robot Control Programming</h5>
+          <div>
+            <img
+              class="img"
+              src="https://www.controleng.com/wp-content/uploads/sites/2/2020/12/CTL2012_MAG2_IM_Yaskawa_Motoman_Fig1-1.jpg"
+            />
+          </div>
+          <p class="text">
+            Be able to operate robot with programming, designing and building.
+            Common in Lego Mindstrom and GoGobot.
+          </p>
+        </div>
+      </div>
+    </div>
 
+    <div class="mt-5 p-4 bg-primary text-white text-center"></div>
+  </body>
 </html>
